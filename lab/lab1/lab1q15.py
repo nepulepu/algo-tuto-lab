@@ -7,4 +7,7 @@ def getPassword(number):
     return password
 
 leng=int(input("Please insert password length: "))
+endtime=time.time()
+masa=endtime-starttime
 print("your password is: "+ getPassword(leng))
+print("time = ", round(masa),"s")
